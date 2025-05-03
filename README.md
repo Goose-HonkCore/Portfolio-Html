@@ -2,8 +2,7 @@
 
 A sleek, modern, and responsive portfolio website with a dark theme to showcase your projects and skills.
 
-![Portfolio Preview](![image](https://cdn.discordapp.com/attachments/1355988299147247808/1368092730240274452/image.png?ex=6816f724&is=6815a5a4&hm=58b1ce8a0f3ce678546d3de28848617ddba00438474384a0a822f13499a73a90&)
-)
+![Portfolio Preview](preview.png)
 
 ## Features
 
