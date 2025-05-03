@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChangeMeToYourName | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="noise"></div>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="logo">
+                    <span>&lt;</span>ChangeMeToYourName<span>/&gt;</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </nav>
+        </header>
+
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>
+                    <span class="greeting">Hello, I'm</span>
+                    <span class="name">ChangeMeToYourName</span>
+                </h1>
+                <h2 class="typewriter">
+                    <span id="typing-text"></span><span class="cursor">|</span>
+                </h2>
+                <p class="lead">Passionate developer crafting digital experiences.</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="code-window">
+                    <div class="code-header">
+                        <div class="code-dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="code-title">main.js</div>
+                    </div>
+                    <div class="code-content">
+                        <pre><code>
+<span class="comment">// Welcome to my portfolio</span>
+<span class="keyword">const</span> <span class="variable">developer</span> = {
+  <span class="property">name</span>: <span class="string">'ChangeMeToYourName'</span>,
+  <span class="property">role</span>: <span class="string">'Full Stack Developer'</span>,
+  <span class="property">location</span>: <span class="string">'Your Location'</span>,
+  <span class="property">skills</span>: [
+    <span class="string">'JavaScript'</span>,
+    <span class="string">'HTML'</span>,
+    <span class="string">'CSS'</span>,
+    <span class="string">'React'</span>,
+    <span class="string">'Node.js'</span>
+  ],
+  <span class="property">contact</span>: <span class="function">() =></span> {
+    <span class="keyword">return</span> <span class="string">'Let\'s connect!'</span>;
+  }
+};
+
+<span class="function">console</span>.<span class="method">log</span>(developer.<span class="method">contact</span>());
+                        </code></pre>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-user"></i>
+                        <p>Your Photo</p>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p>Hey there! I'm <span class="highlight">ChangeMeToYourName</span>, a passionate developer with a knack for creating elegant solutions to complex problems.</p>
+                    
+                    <p>I've spent the last few years honing my skills in software development, focusing on building responsive and intuitive web applications that provide exceptional user experiences.</p>
+                    
+                    <p>When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or enjoying the outdoors. I believe in continuous learning and pushing the boundaries of what's possible in tech.</p>
+                    
+                    <div class="about-buttons">
+                        <a href="#" class="btn btn-outline">Download CV</a>
+                        <a href="#contact" class="btn btn-primary">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/api/placeholder/400/300" alt="Project 1">
+                    </div>
+                    <div class="project-content">
+                        <h3>Project One</h3>
+                        <p>A full-stack web application built with React and Node.js that allows users to manage their tasks efficiently.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-sm"><i class="fas fa-globe"></i> Live Demo</a>
+                            <a href="#" class="btn btn-sm btn-outline"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/api/placeholder/400/300" alt="Project 2">
+                    </div>
+                    <div class="project-content">
+                        <h3>Project Two</h3>
+                        <p>A responsive e-commerce platform with advanced filtering and search capabilities.</p>
+                        <div class="project-tech">
+                            <span>JavaScript</span>
+                            <span>Firebase</span>
+                            <span>Stripe API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-sm"><i class="fas fa-globe"></i> Live Demo</a>
+                            <a href="#" class="btn btn-sm btn-outline"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/api/placeholder/400/300" alt="Project 3">
+                    </div>
+                    <div class="project-content">
+                        <h3>Project Three</h3>
+                        <p>A data visualization dashboard that presents complex information in an intuitive manner.</p>
+                        <div class="project-tech">
+                            <span>D3.js</span>
+                            <span>Vue.js</span>
+                            <span>Express</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-sm"><i class="fas fa-globe"></i> Live Demo</a>
+                            <a href="#" class="btn btn-sm btn-outline"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="#" class="btn btn-primary view-all">View All Projects</a>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-content">
+                <div class="skills-text">
+                    <p>I've worked with a wide range of technologies, always focusing on writing clean, maintainable code. Here are some of the skills I've developed over the years:</p>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Frontend</h3>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>JavaScript</span>
+                                <span>92%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 92%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>HTML</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>CSS/SASS</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>React</span>
+                                <span>88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>Backend</h3>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Node.js</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Express</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>MongoDB</span>
+                                <span>78%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 78%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>SQL</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>Tools & Others</h3>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Git</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Docker</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>AWS</span>
+                                <span>65%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 65%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>UI/UX Design</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>your.email@example.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>Your City, Country</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p>+1 234 567 890</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 ChangeMeToYourName. All Rights Reserved.</p>
+            <div class="footer-signature" id="footerSignature">Made By <a href="https://github.com/Goose-HonkCore" target="_blank">Goose</a></div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
