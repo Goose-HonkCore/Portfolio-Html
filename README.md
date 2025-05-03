@@ -2,7 +2,8 @@
 
 A sleek, modern, and responsive portfolio website with a dark theme to showcase your projects and skills.
 
-![Portfolio Preview](preview.png)
+![Portfolio Preview](![image](https://github.com/user-attachments/assets/530e6457-8d89-4c66-962b-acecac10f8ac)
+)
 
 ## Features
 
